@@ -1,0 +1,84 @@
+body{
+    font-style: roboto;
+}
+
+.baap{
+    display: flex;
+    flex-direction: column;
+}
+
+.header{
+     background-color: #1F2937;
+     color: white;
+     display: flex;
+     flex-direction: column;
+     gap: 20px;
+     margin: 5px;
+     padding: 20px;
+}
+
+.head{
+    align-items: center;
+    text-align: center;
+}
+
+.para{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+#brono{
+    height: 250px;
+    width: auto;
+    border-radius: 10px;
+}
+
+.faterbut{
+     display: flex;
+     flex-direction: row;
+     justify-content: space-around;
+     margin: 20px;
+     padding: 10px;
+}
+
+.but1, .but1, .but1{
+    padding: 5px;
+    border: 1px solid black;
+    background-color: red;
+}
+
+.footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+#footbut{
+    font-weight: 600;
+
+}
+#footbut {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  background-color: #f8f9fa;
+  border: 1px solid #dadce0;
+  color: #3c4043;
+  padding: 6px 16px;
+  border-radius: 20px;
+  font-family: 'Roboto', sans-serif;
+  font-size: 14px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background-color 0.2s, box-shadow 0.2s;
+}
+
+#footbut:hover {
+  background-color: #f1f3f4;
+  box-shadow: 0 1px 2px rgba(60, 64, 67, 0.3);
+}
+
+#footbut {
+  background-color: #e8eaed;
+}
