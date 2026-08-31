@@ -11,6 +11,7 @@ let strround = document.getElementById("startrounnd");
 let faterbut = document.getElementById("faterbut");
 let yoursrc = document.getElementById("yoursrc");
 let bronosrc = document.getElementById("bronosrc");
+let footer = document.getElementById("footer");
 // human button//
 nextbut.addEventListener("click", playRound);
 
@@ -49,10 +50,8 @@ function compres(){
 
 let playcount = 0;
 function playRound() {
-    
-    // adding footer score display bars
-    footer
     nextbut.innerText = "Next Round =>";
+
     faterbut.innerHTML = '<div><button id="but1"><img src="rock.jpeg" alt="ROCK"></button></div>';
     faterbut.innerHTML += '<div><button id="but2"><img src="paper.jpeg" alt="PAPER"></button></div>';
     faterbut.innerHTML +=  '<div><button id="but3"><img src="scissor.jpeg" alt="SCISSOR"></button></div>';
@@ -98,13 +97,12 @@ function playRound() {
         }else {
             faterbut.innerHTML = `<div><h1>It was TIE</h1></div>`;
         }
-
-        // winner.innerHTML = windec();
-        yoursrc.innerHTML = `Your score is ${humansrc}`;
-        bronosrc.innerHTML = `brono's score is ${compsrc}`;
         rounddisplay.innerHTML = `<div>Your choice => ${m}</div>`;
         rounddisplay.innerHTML += `<div>ROUND NUMBER ${playcount}</div>`;
-        rounddisplay.innerHTML += `<div>Brono choice =>${a}</div>`;     
+        rounddisplay.innerHTML += `<div>Brono choice =>${a}</div>`;
+        // winner.innerHTML = windec();
+        yoursrc.innerHTML = `Your Score is =>${humansrc}`;
+        bronosrc.innerHTML = `Your Score is =>${compsrc}`;       
     }
     if (playcount > 5) {
         // nextbut.removeEventListener('click', playRound());//
