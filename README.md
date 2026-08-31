@@ -8,4 +8,7 @@ Specifications of this Game are listed below:-
 5. There are 6 rounds in it and after 6th round it displays the MATCH WINNER. 
 
 SOME PHOTOS OF GAME
-<img width="1962" height="1576" alt="Image" src="https://github.com/user-attachments/assets/65c44d4c-a53f-4e8d-b414-777436dfdbb1" />
+
+
+
+<img width="1962" height="1576" alt="Image" src="https://github.com/user-attachments/assets/0d0b59fd-eeaf-4472-879b-916f420e3970" />
